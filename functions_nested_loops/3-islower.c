@@ -2,7 +2,9 @@
 
 /**
   * _islower - check the code
+  * @v: for vesta
   *
+  * Return: 1 for lower or 0 for upper
   */
 int _islower(int v)
 {
