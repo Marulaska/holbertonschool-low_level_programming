@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _isupper - check the uppercase
- *return - 1 uppercase
- *return -0 otherwhise
+ * @c : integer identifying the char value in the ASCII table.
  * Return: Always 0.
  */
 
