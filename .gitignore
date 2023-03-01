@@ -1,7 +1,1 @@
-deleted:    make/1-Makefile
-makefiles/.3-Makefile.swp
-        more_functions_nested_loops/0-isuper
-        more_functions_nested_loops/0-main.c
-        more_functions_nested_loops/1-main.c
-        more_functions_nested_loops/2-main.c
-        more_functions_nested_loops/2-mul
+*main.c
