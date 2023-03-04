@@ -14,7 +14,7 @@
 	while (pos != '\0') 
 	{
 		sum = sum + 1;
-		pos = s[index++];
+		pos = s[++index];
 	}
 	return sum;
 }	
