@@ -17,7 +17,13 @@ void puts_half(char *s)
 		pos = s[++index];
 	}
 
-	half = (sum) / 2;
+	if (sum % 2 == 0)
+	{
+		half = sum / 2;
+	}
+	else
+	{
+		half = (sum - 1) / 2;	
 
 	for (index = half; index < sum ; index++)
 	{
