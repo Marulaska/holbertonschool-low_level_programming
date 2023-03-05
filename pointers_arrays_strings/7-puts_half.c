@@ -23,8 +23,8 @@ void puts_half(char *s)
 	}
 	else
 	{
-		half = (sum - 1) / 2;	
-
+		half = (sum - 1) / 2;
+	}
 	for (index = half; index < sum ; index++)
 	{
 		_putchar(s[index]);
