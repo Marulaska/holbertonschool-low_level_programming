@@ -9,12 +9,13 @@
 void puts_half(char *s)
 {
 	int index = 0, sum = 0, half = 0;
+	char pos = s[index];
 
-	while (s[index] != '\0')
+	while (pos != '\0')
 	{
-		index++;
+		sum = sum + 1;
+		pos = s[++index];
 	}
-	sum = index + 1;
 
 	if (sum % 2 == 0)
 	{
