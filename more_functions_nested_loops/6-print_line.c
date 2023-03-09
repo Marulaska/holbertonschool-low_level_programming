@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - check the code
- *
+ *@n: the number of times the character _ should be printed
  * Return: Always void.
  */
 void print_line(int n)
