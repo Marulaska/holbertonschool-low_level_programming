@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_trianlge - print triangle with spaces and hashtag
+ * print_triangle - print triangle with spaces and hashtag
  * @size: height of triangle.
  * Return: Always 0.
  */
