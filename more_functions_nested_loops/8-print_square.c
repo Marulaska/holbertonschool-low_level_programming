@@ -19,4 +19,5 @@ void print_square(int size)
 		x = 0;
 		y++;
 	}
+	_putchar('\n');
 }
