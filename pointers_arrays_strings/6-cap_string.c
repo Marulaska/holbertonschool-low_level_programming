@@ -31,9 +31,9 @@ char *cap_string(char *str)
 
 	while (str[index] != '\0')
 	{
-		if ((is_sep(str[index]) == 0
-		&& (str[index + 1] >= 'a') && (str[index + 1] <= 'z')))
-			str[index + 1] = str[index + 1] - 32;
+		if (((index == 0) || (is_sep(str[index - 1]) == 0))
+		&& ((str[index] >= 'a') && (str[index] <= 'z')))
+			str[index] = str[index] - 32;
 		index++;
 	}
 
